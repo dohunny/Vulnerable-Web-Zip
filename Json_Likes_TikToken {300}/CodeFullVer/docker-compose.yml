@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+    flask:
+        build: ./
+        volumes: 
+            - ./app:/app
+        container_name: JSON_Likes_TikToken
+        restart: always
+        environment:
+            - APP_NAME=FlaskTest
+        ports: 
+            - "8091:5000"
