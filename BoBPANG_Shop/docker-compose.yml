@@ -1,0 +1,24 @@
+version: '3.3'
+services:
+  webserver:
+    build: .
+    ports:
+      - "8083:80"
+    links:
+      - db
+    restart: always
+    volumes:
+      - ./html:/var/www/html/
+    depends_on:
+      - db
+                                                                                                                            
+  db:
+    container_name: db
+    image: mysql:5.5
+    environment:
+      - MYSQL_ROOT_PASSWORD=nonamed
+      - MYSQL_USER=N0Named
+      - MYSQL_PASSWORD=N0Named123#@!
+      - MYSQL_DATABASE=shop
+    # volumes:
+    #   - ./db_test:/var/lib/mysql

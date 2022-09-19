@@ -1,0 +1,229 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+#bodybody {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.list-group-item {
+  color: black;
+  text-decoration: none;
+}
+
+.list-group {
+  position: sticky;
+  top: 115px;
+}
+
+.list-group-item:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.goods-con{
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.top-con {
+  display: flex;
+  flex-direction: row;
+}
+
+.desc-top {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.img-top {
+  width: 300px;
+  height: 310px;
+}
+
+#smallblue {
+  color:royalblue;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+}
+
+#goods-name {
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+#price {
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  color:brown;
+  margin-bottom: 20px;
+}
+
+#stars {
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+  padding-right: 10px;
+}
+
+.des {
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+  font-weight: bolder;
+}
+
+.dess {
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+}
+
+.dd{
+  margin:0;
+  color: rgba(255,255,255,0.8);
+  font-size:13px;
+  margin-left: auto;
+}
+
+#hihi{
+  color: rgb(84 121 255);
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#hihih{
+  color: rgba(255,255,255,0.8);
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+#ww {
+  opacity: 0.8;
+}
+
+.col-lg-9{
+  margin-top: 35px;
+}
+
+.list-group-item {
+  display: flex;
+}
+
+.list-group-item-img {
+  width: 30px;
+}
+
+.list-group-item-desc {
+  position: absolute;
+  left: 70px;
+  top: 15px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+#ddd{
+  margin-top: 20px;
+}
+
+buttonCon {
+  display: flex;
+}
+
+#gotoCart {
+  width: 150px;
+  margin-left: 10px;
+  height: 53px;
+  margin-top: 6px;
+  border: 1px solid royalblue;
+  color: royalblue;
+  background-color: white;
+}
+
+#buyNow {
+  width: 150px;
+  margin-left: 10px;
+  height: 53px;
+  margin-top: 6px;
+  border: none;
+  background-color: royalblue;
+  color: white;
+}
+
+.eee {
+  width: 770px;
+  margin-bottom: 20px;
+}
+
+.bottom-con {
+  display: flex;
+  flex-direction: column;
+  width: 770px;
+  margin-top: 50px;
+}
+
+#more {
+  width: 150px;
+  margin: auto;
+  height: 53px;
+  margin-top: 6px;
+  border: 1px solid royalblue;
+  color: royalblue;
+  background-color: white;
+}
+
+#ggg {
+  font-weight: bolder;
+  padding: 20px 0 10px 0;
+  margin-bottom: 50px;
+  font-size: 20px;
+  border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+#profileImg {
+  width: 50px;
+  margin-right: 10px;
+}
+
+profile {
+  display: flex;
+  width: 770px;
+  position: relative;
+}
+
+#hihis {
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+#moreReview {
+  text-align: right;
+}
+
+comment {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#reviewLike {
+  position: absolute;
+  right: 0;
+  color: royalblue;
+  font-size: 13px;
+}

@@ -1,0 +1,150 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+#bodybody {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.list-group-item {
+  color: black;
+  text-decoration: none;
+}
+
+.list-group {
+  position: sticky;
+  top: 115px;
+}
+
+.list-group-item:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.card-img-top {
+  position: absolute; clip: rect(0 auto 150px auto)
+}
+
+.card-body {
+  margin-top: 140px;
+}
+
+.card-text {
+  font-size: 12px;
+}
+
+.goods-name {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.goods-name:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.dd{
+  margin:0;
+  color: rgba(255,255,255,0.8);
+  font-size:13px;
+  margin-left: auto;
+}
+
+#hihi{
+  color: rgb(84 121 255);
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#hihih{
+  color: rgba(255,255,255,0.8);
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+#ww {
+  opacity: 0.8;
+}
+
+.col-lg-9{
+  margin-top: 35px;
+}
+
+.goods-price {
+  color: rgb(84 121 255);
+  font-weight: bolder;
+  position: absolute;
+  top: 166px;
+  right: 18px;
+}
+
+.list-group-item {
+  display: flex;
+}
+
+.list-group-item-img {
+  width: 30px;
+}
+
+.list-group-item-desc {
+  position: absolute;
+  left: 70px;
+  top: 15px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.review-n {
+  position: absolute;
+  left: 100px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.text-muted {
+  font-weight: bolder;
+}
+
+#nownow {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+#nownoww {
+  font-size: 23px;
+  padding-bottom: 5px;
+  font-weight: bolder;
+}
+
+#nowcon {
+  display: flex;
+  padding-bottom: 5px;
+}
+
+#ddd{
+  margin-top: 20px;
+}
+
+#more {
+  width: 150px;
+  margin: auto;
+  height: 53px;
+  margin-top: 6px;
+  border: 1px solid royalblue;
+  color: royalblue;
+  background-color: white;
+}

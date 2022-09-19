@@ -1,0 +1,125 @@
+
+            .inputC {
+                font-size: 15px;
+                display: block;
+                margin: 10px auto;
+                padding: 10px;
+                width: 500px;
+                position: relative;
+                border: 1px solid royalblue;
+            }
+            .container2 {
+                height: 100%;
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 15px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                
+                position: relative;
+                z-index: 1;
+            }
+            .CForm {
+                width: 600px;
+            }
+            .textBox {
+                height: 50px;
+            }
+            .textArea {
+                height: 200px;
+                font-family: Montserrat-Regular, sans-serif;
+            }
+
+            input:focus::-webkit-input-placeholder { color:transparent; }
+            input:focus:-moz-placeholder { color:transparent; }
+            input:focus::-moz-placeholder { color:transparent; }
+            input:focus:-ms-input-placeholder { color:transparent; }
+
+            textarea:focus::-webkit-input-placeholder { color:transparent; }
+            textarea:focus:-moz-placeholder { color:transparent; }
+            textarea:focus::-moz-placeholder { color:transparent; }
+            textarea:focus:-ms-input-placeholder { color:transparent; }
+
+            input::-webkit-input-placeholder { color: #999999; }
+            input:-moz-placeholder { color: #999999; }
+            input::-moz-placeholder { color: #999999; }
+            input:-ms-input-placeholder { color: #999999; }
+
+            textarea::-webkit-input-placeholder { color: #999999; }
+            textarea:-moz-placeholder { color: #999999; }
+            textarea::-moz-placeholder { color: #999999; }
+            textarea:-ms-input-placeholder { color: #999999; }
+        /*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+            body {
+            height: 100vh;
+            padding-top: 56px;
+            font-family: 'Nanum Gothic', sans-serif;
+            }
+
+            #bodybody {
+            font-family: 'Nanum Gothic', sans-serif;
+            }
+
+            .dd{
+            margin:0;
+            color: rgba(255,255,255,0.8);
+            font-size:13px;
+            margin-left: auto;
+            }
+
+            #hihi{
+            color: rgb(84 121 255);
+            font-size: 40px;
+            font-weight: bolder;
+            }
+
+            #hihih{
+            color: rgba(255,255,255,0.8);
+            font-size: 13px;
+            margin-top: 20px;
+            }
+
+            #ww {
+            opacity: 0.8;
+            }
+
+            .sori {
+                padding: 0;
+                margin: 0;
+                text-align: center;
+                font-weight: bolder;
+                font-size: 14px;
+                color: rgba(0,0,0,0.5);
+            }
+
+            .soriDesc {
+                padding: 0;
+                margin: 0 0 20px 0;
+                text-align: center;
+            }
+            
+            #soris {
+                padding: 0;
+                margin: 0 auto;
+                font-size: 30px;
+                font-weight: bolder;
+                border-bottom: 10px solid rgb(84, 121, 255, 0.2);
+                width: 300px;
+            }
+            
+            #bbb {
+                margin-top: 20px;
+                border: none;
+                font-size: 18px;
+                width: 150px;
+                background-color: rgb(84, 121, 255, 0.2);
+            }
+        
