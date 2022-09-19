@@ -1,0 +1,19 @@
+version: "3.3"
+
+services:
+    flask:
+        build: ./flask
+        container_name: flask_memo
+        restart: always
+        environment:
+            - APP_NAME=FlaskTest
+        expose:
+            - 8082
+
+    nginx:
+        build: ./nginx
+        container_name: nginx_memo
+        restart: always
+        ports:
+            - "40011:5000"
+
