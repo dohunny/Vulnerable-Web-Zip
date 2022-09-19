@@ -355,7 +355,7 @@
     <footer class="py-5 bg-dark" id="ddd">
       <div class="container">
         <p class="m-0 text-center text-white">
-          <p class="dd">밥팡(주) | 대표이사 : 강준혁</p>
+          <p class="dd">밥팡(주) | 대표이사 : 구도훈</p>
           <p class="dd">서울특별시 금천구 서부샛길 606 가산 대성디폴리스 A동 27층</p>
           <p class="dd">사업자 등록번호 : 123-11-1231</p>
           <p class="dd">통신판매업신고 : 2020-서울금천-0000</p>
