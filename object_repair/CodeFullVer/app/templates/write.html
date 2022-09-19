@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="wrapper">
+        <h1>Website Design Contest</h1>
+        <div class="designPage">
+            <form id="designPageForm" method="POST">
+                <textarea name="content" placeholder="Design Your Page...!" rows=3 required></textarea>
+                <input class="button" type="submit" id="submit" value="Submit"/>
+            </form>
+        </div>
+    </div><!-- /.wrapper -->
+{% endblock content %}

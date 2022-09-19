@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+    flask:
+        build: ./
+        volumes: 
+            - ./app:/app
+        container_name: object
+        restart: always
+        environment:
+            - APP_NAME=object_app
+        ports: 
+            - "40019:80"

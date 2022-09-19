@@ -1,0 +1,9 @@
+flask
+flask_uuid
+sqlalchemy
+flask_sqlalchemy
+sqlalchemy_utils
+selenium
+webdriver_manager
+beautifulsoup4
+bleach

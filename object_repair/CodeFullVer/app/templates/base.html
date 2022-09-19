@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet"> -->
+        <link href="../static/css/style.css" rel="stylesheet">
+        <title>Website Design Contest</title>
+    </head>
+    <body>
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <h1>WDC</h1> 
+            </a>
+        </div>
+        <div class="navbar">
+            <a class="button" href="{{ url_for('write') }}">Write</a>
+            <a class="button" href="{{ url_for('view') }}">View</a>
+            <a class="button" href="{{ url_for('report') }}">Report</a>
+        </div>
+
+        <div id="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </body>
+</html>
+        

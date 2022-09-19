@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300|Courgette);
+
+* {
+    font-family: 'Apple SD Gothic Neo' !important;
+    font-size: 20px;
+}
+
+#content {
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.navbar {
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+form {
+    color: #333;
+}
+
+input[type=text],
+textarea {
+    display: inline-block;
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+textarea {
+    height: 300px;
+}
+
+input[type=button] {
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #eaeaea;
+}
+
+.footer {
+    font-size: 10px;
+    text-align: right;
+    letter-spacing: 0.5em;
+    clear: both;
+    font-family: 'Courgette', cursive;
+    font-size: 18px !important;
+}
+
+.button {
+    display: inline-block;
+    background-color: #d1d1d1;
+    border-color: #dbdbdb;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    border-radius: .375em;
+    margin: 0.1em;
+    width: 25%;
+}
+
+a{ text-decoration: none; }
+a:visited{ color: inherit; }

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="wrapper">
+        <h1>View Page</h1>
+        <input name="name" type="text" id="uuid" placeholder="UUID...">
+        <button class="button" id="viewsubmit">View</button>
+        <script>
+            window.onload = () => {
+                document.getElementById('viewsubmit').onclick = function(){
+                    location.href = "/view/" + document.getElementById('uuid').value;
+                }
+            }
+        </script>
+    </div><!-- /.wrapper -->
+{% endblock content %}
+    
